@@ -1,2 +1,4 @@
 .idea
 *.iml
+config/cluster.rkestate
+config/kube_config_cluster.yml
