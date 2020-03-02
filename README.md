@@ -120,8 +120,8 @@ INFO[0096] Finished building Kubernetes cluster successfully
 * Use `kubectl` to operate on the cluster, specifying the kubeconfig file using
   the `--kubeconfig` option:
 
-  ```shell script
-  kubectl --kubeconfig ./kube_config_cluster.yml get all
-  NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
-  service/kubernetes   ClusterIP   10.43.0.1    <none>        443/TCP   6m35s
-  ```
+```shell script
+kubectl --kubeconfig ./kube_config_cluster.yml get all
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.43.0.1    <none>        443/TCP   6m35s
+```
